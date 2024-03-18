@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Day13_MyShop:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/Day13_MyShop_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Day13_MyShop" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="c3p0-0.9.1.2" />
+          <element id="file-copy" path="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.16/lombok-1.18.16.jar" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="Day13_MyShop/web/Web" />
+    </root>
+  </artifact>
+</component>
